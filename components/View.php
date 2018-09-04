@@ -16,7 +16,6 @@ class View
         }
 
         $this->content = $this->getRenderHTML('views/' . $mainView);
-
         if (!$templateView) {
             echo 'Установите шаблон'; die;
         }
